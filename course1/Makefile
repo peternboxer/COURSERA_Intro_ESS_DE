@@ -47,7 +47,7 @@ ifeq ($(PLATFORM),MSP432)
 	ARMFLAGS = -mcpu=$(CPU) -m$(ARCH) --specs=$(SPECS) -mfpu=$(FPU) -march=armv7e-m -mfloat-abi=hard
 	SIZE = arm-none-eabi-size
 	OBJDUMP = arm-none-eabi-objdump
-	LINKER_FILE = ../msp432p401r.lds
+	LINKER_FILE = msp432p401r.lds
 
 
 endif
